@@ -9,4 +9,3 @@ class Hello(message:String){
   def this()=this("How are you ?")
   println(message)
 }
-
