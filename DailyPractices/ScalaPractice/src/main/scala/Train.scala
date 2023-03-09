@@ -1,3 +1,0 @@
-class Train {
-println("hello")
-}

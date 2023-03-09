@@ -2,6 +2,7 @@
 "Vanshika Srivastava" .split(" ").size
 "Vanshika".size
 
+//Equality Operators
 12==12
 "Vanshika"=="Vanshika"
 999 != 999
@@ -23,5 +24,5 @@ object Time {
 }
 
 val time=Time.fromMinutes(125)
-time.hours
-time.minutes
+println("Hours: " + time.hours)
+println("Minutes: " + time.minutes)
