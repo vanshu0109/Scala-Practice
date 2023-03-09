@@ -5,27 +5,24 @@ object Main extends App {
   val secondNumber = StdIn.readInt()
   val thirdNumber = StdIn.readInt()
   var count=0
-
-  try {
+  def countDivisors(firstNumber: Int, secondNumber: Int, thirdNumber: Int): Int = {
     //Throwing Arithmetic Exception
     if (thirdNumber == 0) {
       throw new ArithmeticException("Divisor cannot be zero")
     }
-    def countDivisors(firstNumber: Int, secondNumber: Int, thirdNumber: Int): Int = {
-        for (index <- firstNumber until secondNumber+1) {
-             if (index % thirdNumber == 0) {
-               count += 1
-        }
+    for (index <- firstNumber until secondNumber+1) {
+      if (index % thirdNumber == 0) {
+        count += 1
       }
-      //Returning Count of Divisors
-      count
     }
-      println(countDivisors(firstNumber, secondNumber, thirdNumber))
+    //Returning Count of Divisors
+    count
+  }
+  try{
+    println(countDivisors(firstNumber, secondNumber, thirdNumber))
   }
   catch {
     case exception: ArithmeticException =>
       println("Error: " + exception.getMessage)
   }
 }
-
-
