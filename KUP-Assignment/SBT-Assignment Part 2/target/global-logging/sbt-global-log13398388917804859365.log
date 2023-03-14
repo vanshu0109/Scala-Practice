@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(publishLocal, Some(450039c5-3b43-40a6-a400-f0bb41773762), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: publishLocal[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /home/knoldus/SBT-Assignment Part 2/target/scala-2.13/sbt_assignment_2.13-0.1.0-SNAPSHOT.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: sbt_assignment#sbt_assignment_2.13;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Tue Mar 14 11:14:46 IST 2023[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /home/knoldus/SBT-Assignment Part 2/target/scala-2.13/ivy-0.1.0-SNAPSHOT.xml[0m
+[0m[[0m[0minfo[0m] [0m[0m	published sbt_assignment_2.13 to /home/knoldus/.ivy2/local/sbt_assignment/sbt_assignment_2.13/0.1.0-SNAPSHOT/poms/sbt_assignment_2.13.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published sbt_assignment_2.13 to /home/knoldus/.ivy2/local/sbt_assignment/sbt_assignment_2.13/0.1.0-SNAPSHOT/jars/sbt_assignment_2.13.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published sbt_assignment_2.13 to /home/knoldus/.ivy2/local/sbt_assignment/sbt_assignment_2.13/0.1.0-SNAPSHOT/srcs/sbt_assignment_2.13-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published sbt_assignment_2.13 to /home/knoldus/.ivy2/local/sbt_assignment/sbt_assignment_2.13/0.1.0-SNAPSHOT/docs/sbt_assignment_2.13-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /home/knoldus/.ivy2/local/sbt_assignment/sbt_assignment_2.13/0.1.0-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 14-Mar-2023, 11:14:46 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

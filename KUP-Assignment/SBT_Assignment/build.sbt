@@ -30,3 +30,4 @@ lazy val utils = (project in file("utils"))
     version := "1.0.0",
     scalaVersion := "2.13.8"
   )
+libraryDependencies += "sbt_assignment" % "sbt_assignment" % "0.1.0-SNAPSHOT"
