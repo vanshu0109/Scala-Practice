@@ -12,12 +12,12 @@ class ElectricityBillGeneratorTest extends AnyFunSuite {
       ElectricityBillGenerator(0, "user1", "Delhi", 5062, 5904)
     }
   }
-  test("ElectricityAccount should throw an IllegalArgumentException if current unit is less than previous unit") {
+  test("ElectricityBillCalculator should throw an IllegalArgumentException if current unit is less than previous unit") {
     assertThrows[IllegalArgumentException] {
       ElectricityBillGenerator(1001, "user1", "Delhi", 5904, 5062)
     }
   }
-  test("ElectricityAccount should throw an IllegalArgumentException if previous unit is equal to zero") {
+  test("ElectricityBillCalculator should throw an IllegalArgumentException if previous unit is equal to zero") {
     assertThrows[IllegalArgumentException] {
       ElectricityBillGenerator(1001, "user1", "Delhi", 0, 5062)
     }
