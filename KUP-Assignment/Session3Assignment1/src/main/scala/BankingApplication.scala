@@ -52,20 +52,5 @@ class BankingApplication {
     }
     else false
   }
-  //  createAccount(1800.90)
-  //  createAccount(openingBalance = 1200)
-  //  createAccount(openingBalance = 0)
-  //  createAccount(openingBalance = 1200)
-  //createAccount(openingBalance = 1200)
-  // println( "account created = "+createAccount(openingBalance = 1200))
-
-  //  //updateBalance()
-  // println(accountsData)
-  // println(fetchAccountBalance(accountsData.keys.head))
-  ////  val object1 = Transactions(1234,3,"credit",500)
-  //// // println(fetchAccountBalance(2))
-  ////  println(account)
-  ////  println(updateBalance(List(object1)))
-  //println(deleteAccount(accountsData.keys.tail.head))
-  // println(accountsData)
+  
 }
